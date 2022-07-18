@@ -1,0 +1,14 @@
+type Query {
+    someQuery: SomeResponse!
+}
+extend type Query {
+    anotherQuery: AnotherResponse!
+}
+
+type SomeResponse {
+    foo: String
+}
+
+type AnotherResponse {
+    bar: String
+}

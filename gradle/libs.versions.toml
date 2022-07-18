@@ -1,0 +1,5 @@
+[versions]
+expedia-graphql = "5.4.1"
+
+[plugins]
+expedia-graphql-plugin = { id = "com.expediagroup.graphql", version.ref = "expedia-graphql" }
